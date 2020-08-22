@@ -1,6 +1,6 @@
 import { StatusBar } from "expo-status-bar";
 import React, { useState } from "react";
-import { StyleSheet, TextInput, View, Button, ScrollView } from "react-native";
+import { StyleSheet, TextInput, View, Button, ScrollView, Text} from "react-native";
 
 export default function App() {
   const [enteredGoal, setEnteredGoal] = useState("");
